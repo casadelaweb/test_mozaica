@@ -1,0 +1,27 @@
+.font {
+  &-xs {
+    font-size: 11px;
+    line-height: calc(12 / 11);
+    letter-spacing: 0.004em;
+  }
+
+  &-sm {
+    font-size: 14px;
+    line-height: calc(20 / 14);
+    letter-spacing: 0.0025em;
+  }
+
+  &-m {
+    font-size: 16px;
+    line-height: calc(22 / 16);
+    letter-spacing: 0.0015em;
+  }
+
+  &-l {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: calc(24 / 18);
+    letter-spacing: 0.0015em;
+  }
+}
+
